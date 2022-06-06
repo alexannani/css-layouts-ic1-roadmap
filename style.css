@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 header {
     background-color: #f0f0f0;
 }
@@ -8,10 +12,29 @@ h1 {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 svg {
     position: absolute;
     right: 16px;
     padding-right: 10px;
+}
+
+ul {
+    background-color: #c0c0c0;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+li {
+    display: inline;
+  }
+
+.githubNavTitle {
+    padding-left: 20px;
 }
