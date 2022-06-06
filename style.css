@@ -4,9 +4,6 @@ body {
 
 header {
     background-color: #f0f0f0;
-}
-
-h1 {
     text-align: left;
     font-size: 24px;
     padding-top: 15px;
@@ -37,4 +34,24 @@ li {
 
 .githubNavTitle {
     padding-left: 20px;
+}
+
+.contentContainer {
+    max-width: 70%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.githubFooterTitle {
+    position: absolute;
+    right: 16px;
 }
